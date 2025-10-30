@@ -1,0 +1,121 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="houseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F5F9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roofGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <filter id="houseShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect y="220" width="600" height="80" fill="#065F46"/>
+  <rect y="210" width="600" height="10" fill="#059669"/>
+  
+  <!-- Modern Houses/Kitnets -->
+  <!-- House 1 - Modern Kitnet -->
+  <g filter="url(#houseShadow)">
+    <rect x="60" y="140" width="100" height="70" fill="url(#houseGradient)" rx="4"/>
+    <polygon points="60,140 110,110 160,140" fill="url(#roofGradient)"/>
+    <rect x="75" y="170" width="18" height="25" fill="#6B7280" rx="2"/>
+    <rect x="100" y="155" width="20" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="125" y="155" width="20" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="100" y="175" width="20" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="125" y="175" width="20" height="15" fill="#3B82F6" rx="2"/>
+    <!-- Modern details -->
+    <rect x="60" y="140" width="100" height="5" fill="#F59E0B"/>
+  </g>
+  
+  <!-- House 2 - Student Republic -->
+  <g filter="url(#houseShadow)">
+    <rect x="200" y="130" width="120" height="80" fill="url(#houseGradient)" rx="4"/>
+    <polygon points="200,130 260,100 320,130" fill="url(#roofGradient)"/>
+    <rect x="220" y="170" width="18" height="25" fill="#6B7280" rx="2"/>
+    <rect x="245" y="150" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="270" y="150" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="295" y="150" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="245" y="175" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="270" y="175" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="295" y="175" width="18" height="18" fill="#3B82F6" rx="2"/>
+    <!-- Modern accent -->
+    <rect x="200" y="130" width="120" height="5" fill="#10B981"/>
+  </g>
+  
+  <!-- House 3 - Shared Apartment -->
+  <g filter="url(#houseShadow)">
+    <rect x="360" y="135" width="110" height="75" fill="url(#houseGradient)" rx="4"/>
+    <polygon points="360,135 415,105 470,135" fill="url(#roofGradient)"/>
+    <rect x="380" y="175" width="18" height="25" fill="#6B7280" rx="2"/>
+    <rect x="405" y="155" width="22" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="435" y="155" width="22" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="405" y="180" width="22" height="18" fill="#3B82F6" rx="2"/>
+    <rect x="435" y="180" width="22" height="18" fill="#3B82F6" rx="2"/>
+    <!-- Modern accent -->
+    <rect x="360" y="135" width="110" height="5" fill="#8B5CF6"/>
+  </g>
+  
+  <!-- Small Apartment Building -->
+  <g filter="url(#houseShadow)">
+    <rect x="500" y="120" width="80" height="90" fill="url(#houseGradient)" rx="4"/>
+    <rect x="500" y="120" width="80" height="6" fill="#EC4899"/>
+    <rect x="510" y="140" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="530" y="140" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="555" y="140" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="510" y="160" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="530" y="160" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="555" y="160" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="510" y="180" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="530" y="180" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="555" y="180" width="15" height="15" fill="#3B82F6" rx="2"/>
+    <rect x="535" y="190" width="12" height="20" fill="#6B7280" rx="2"/>
+  </g>
+  
+  <!-- Modern landscaping -->
+  <g opacity="0.9">
+    <!-- Tree 1 -->
+    <circle cx="40" cy="200" r="25" fill="#10B981"/>
+    <circle cx="35" cy="195" r="18" fill="#059669"/>
+    <circle cx="45" cy="190" r="20" fill="#047857"/>
+    <rect x="37" y="200" width="6" height="20" fill="#92400E"/>
+    
+    <!-- Tree 2 -->
+    <circle cx="180" cy="240" r="20" fill="#10B981"/>
+    <circle cx="175" cy="235" r="15" fill="#059669"/>
+    <rect x="177" y="240" width="6" height="15" fill="#92400E"/>
+    
+    <!-- Tree 3 -->
+    <circle cx="340" cy="235" r="22" fill="#10B981"/>
+    <circle cx="350" cy="230" r="16" fill="#059669"/>
+    <rect x="337" y="235" width="6" height="18" fill="#92400E"/>
+    
+    <!-- Tree 4 -->
+    <circle cx="490" cy="245" r="18" fill="#10B981"/>
+    <rect x="487" y="245" width="6" height="15" fill="#92400E"/>
+  </g>
+  
+  <!-- Modern pathway -->
+  <path d="M0 250 Q150 245 300 250 Q450 255 600 250" stroke="#64748B" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Title and description -->
+  <rect x="150" y="30" width="300" height="60" fill="rgba(255,255,255,0.1)" rx="15" backdrop-filter="blur(10px)"/>
+  <text x="300" y="55" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="white">Moradia Estudantil</text>
+  <text x="300" y="75" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">Kitnets, Repúblicas e Apartamentos Compartilhados</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="80" r="3" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="500" cy="70" r="2" fill="#EC4899" opacity="0.7"/>
+  <circle cx="50" cy="90" r="2" fill="#10B981" opacity="0.7"/>
+  <circle cx="550" cy="85" r="3" fill="#8B5CF6" opacity="0.7"/>
+</svg>

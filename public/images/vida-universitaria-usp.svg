@@ -1,0 +1,108 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764BA2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F8FAFC;stop-opacity:0.90" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#heroGradient)"/>
+  
+  <!-- Floating geometric shapes -->
+  <circle cx="100" cy="80" r="40" fill="#F59E0B" opacity="0.2"/>
+  <circle cx="700" cy="120" r="60" fill="#EC4899" opacity="0.15"/>
+  <rect x="650" y="300" width="80" height="80" fill="#10B981" opacity="0.1" rx="20" transform="rotate(45 690 340)"/>
+  <circle cx="150" cy="350" r="30" fill="#8B5CF6" opacity="0.2"/>
+  
+  <!-- Main content card -->
+  <rect x="100" y="80" width="600" height="240" fill="url(#cardGradient)" rx="20" filter="url(#cardShadow)"/>
+  
+  <!-- Icons and elements -->
+  <g transform="translate(140, 120)">
+    <!-- Graduation cap icon -->
+    <circle cx="0" cy="0" r="25" fill="#4F46E5"/>
+    <path d="M-15 -5 L0 -15 L15 -5 L0 5 Z" fill="#FFFFFF"/>
+    <rect x="12" y="-5" width="2" height="15" fill="#FFFFFF"/>
+    <circle cx="15" cy="10" r="3" fill="#F59E0B"/>
+  </g>
+  
+  <g transform="translate(240, 120)">
+    <!-- Book icon -->
+    <rect x="-15" y="-10" width="30" height="20" fill="#10B981" rx="2"/>
+    <rect x="-12" y="-7" width="24" height="2" fill="#FFFFFF"/>
+    <rect x="-12" y="-3" width="18" height="2" fill="#FFFFFF"/>
+    <rect x="-12" y="1" width="21" height="2" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(340, 120)">
+    <!-- Users icon -->
+    <circle cx="-8" cy="-5" r="8" fill="#EC4899"/>
+    <circle cx="8" cy="-5" r="8" fill="#F59E0B"/>
+    <path d="M-16 15 C-16 7 -12 3 -8 3 S0 7 0 15" fill="#EC4899"/>
+    <path d="M0 15 C0 7 4 3 8 3 S16 7 16 15" fill="#F59E0B"/>
+  </g>
+  
+  <g transform="translate(440, 120)">
+    <!-- Location icon -->
+    <path d="M0 -15 C-8 -15 -15 -8 -15 0 C-15 8 0 15 0 15 S15 8 15 0 C15 -8 8 -15 0 -15 Z" fill="#8B5CF6"/>
+    <circle cx="0" cy="-3" r="5" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(540, 120)">
+    <!-- Chart icon -->
+    <rect x="-12" y="-10" width="24" height="20" fill="#06B6D4" rx="3"/>
+    <rect x="-8" y="-5" width="3" height="10" fill="#FFFFFF"/>
+    <rect x="-3" y="-8" width="3" height="13" fill="#FFFFFF"/>
+    <rect x="2" y="-2" width="3" height="7" fill="#FFFFFF"/>
+    <rect x="7" y="-6" width="3" height="11" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="400" y="200" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="700" fill="#1F2937">Vida Estudantil</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#6B7280">Seu guia completo para uma experiência universitária de sucesso</text>
+  
+  <!-- Feature cards -->
+  <g transform="translate(140, 260)">
+    <rect x="0" y="0" width="120" height="40" fill="rgba(79, 70, 229, 0.1)" rx="8" stroke="#4F46E5" stroke-width="1"/>
+    <text x="60" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#4F46E5">Universidades</text>
+  </g>
+  
+  <g transform="translate(280, 260)">
+    <rect x="0" y="0" width="120" height="40" fill="rgba(16, 185, 129, 0.1)" rx="8" stroke="#10B981" stroke-width="1"/>
+    <text x="60" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#10B981">Moradia</text>
+  </g>
+  
+  <g transform="translate(420, 260)">
+    <rect x="0" y="0" width="120" height="40" fill="rgba(245, 158, 11, 0.1)" rx="8" stroke="#F59E0B" stroke-width="1"/>
+    <text x="60" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F59E0B">Alimentação</text>
+  </g>
+  
+  <!-- Decorative dots -->
+  <g opacity="0.6">
+    <circle cx="80" cy="200" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="210" r="1.5" fill="#FFFFFF"/>
+    <circle cx="720" cy="180" r="2" fill="#FFFFFF"/>
+    <circle cx="710" cy="190" r="1" fill="#FFFFFF"/>
+    <circle cx="730" cy="200" r="1.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Bottom wave decoration -->
+  <path d="M0 350 Q200 340 400 350 T800 350 L800 400 L0 400 Z" fill="rgba(255,255,255,0.1)"/>
+</svg>
