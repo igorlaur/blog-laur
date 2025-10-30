@@ -102,17 +102,19 @@ export function getPostsByTag(tag: string): Post[] {
 export function getAllCategories(): CategoryData[] {
   const posts = getAllPosts()
   const categoryCounts: { [key: string]: number } = {}
-  
+
   posts.forEach(post => {
     const category = post.category
     categoryCounts[category] = (categoryCounts[category] || 0) + 1
   })
 
   return Object.entries(categoryCounts).map(([name, count]) => ({
-    name,
+  name: name as PostCategory,
     count,
     slug: name.toLowerCase().replace(/\s+/g, '-'),
-    description: getCategoryDescription(name)
+    description: getCategoryDescription(name),
+    icon: getCategoryIcon(name),
+    color: getCategoryColor(name)
   }))
 }
 
@@ -191,4 +193,36 @@ function getCategoryDescription(category: string): string {
   }
   
   return descriptions[category.toLowerCase()] || 'Informações úteis para vida no Butantã'
+}
+
+function getCategoryIcon(category: string): string {
+  const icons: { [key: string]: string } = {
+    'vida-estudantil': '🎓',
+    'moradia': '🏠',
+    'lazer': '🎮',
+    'comércios': '🏪',
+    'alimentação': '🍽️',
+    'transporte': '🚌',
+    'saúde': '🏥',
+    'serviços': '🏛️',
+    'segurança': '🛡️',
+    'finanças': '💰'
+  }
+  return icons[category.toLowerCase()] || '📝'
+}
+
+function getCategoryColor(category: string): string {
+  const colors: { [key: string]: string } = {
+    'vida-estudantil': '#3B82F6',
+    'moradia': '#10B981',
+    'lazer': '#8B5CF6',
+    'comércios': '#F59E0B',
+    'alimentação': '#EF4444',
+    'transporte': '#06B6D4',
+    'saúde': '#EC4899',
+    'serviços': '#6B7280',
+    'segurança': '#F97316',
+    'finanças': '#84CC16'
+  }
+  return colors[category.toLowerCase()] || '#6B7280'
 }
