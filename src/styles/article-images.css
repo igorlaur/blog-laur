@@ -1,0 +1,49 @@
+/* Estilos para imagens laterais em artigos */
+.image-container-right {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px;
+  text-align: center;
+}
+
+.image-container-left {
+  float: left;
+  width: 300px;
+  margin: 0 20px 20px 0;
+  text-align: center;
+}
+
+.image-container-right img,
+.image-container-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container-right em,
+.image-container-left em {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+  .image-container-right,
+  .image-container-left {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+/* Clearfix para evitar problemas de layout */
+.image-container-right::after,
+.image-container-left::after {
+  content: "";
+  display: table;
+  clear: both;
+}
