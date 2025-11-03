@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import readingTime from 'reading-time'
 import { remark } from 'remark'
 import remarkHtml from 'remark-html'
-import { Post, PostMetadata, CategoryData, TagData } from '@/types/blog'
+import { Post, PostMetadata, CategoryData, TagData, PostCategory } from '@/types/blog'
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts')
 
