@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "categories": "Categorías",
+    "allCategories": "Ver Todas las Categorías",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "tagline": "Vida en Butantã"
+  },
+  "home": {
+    "zone": "São Paulo • Zona Oeste",
+    "heroTitle": "Guía Completa del",
+    "heroHighlight": "Butantã",
+    "heroDescription": "Todo lo que necesitas saber para vivir, estudiar y aprovechar al máximo el barrio más universitario de São Paulo.",
+    "exploreCategories": "Explorar Categorías",
+    "latestPosts": "Ver Últimas Publicaciones",
+    "featuredPosts": "Publicaciones Destacadas",
+    "allPostsBtn": "Ver Todas las Publicaciones",
+    "allCategoriesBtn": "Ver Todas las Categorías",
+    "exploreByCategoryTitle": "Explorar por Categoría",
+    "recentPostsTitle": "Publicaciones Recientes",
+    "readMore": "Leer más",
+    "minuteRead": "min de lectura",
+    "footerTagline": "Tu guía completa para vivir y prosperar en Butantã, São Paulo.",
+    "footerLinks": "Enlaces Útiles",
+    "footerAbout": "Acerca del Blog",
+    "footerContact": "Contacto",
+    "footerCategories": "Todas las Categorías",
+    "footerRights": "Todos los derechos reservados."
+  },
+  "post": {
+    "backToBlog": "Volver al Blog",
+    "home": "Inicio",
+    "posts": "Publicaciones",
+    "notFound": "Publicación no encontrada",
+    "notFoundDesc": "Esta publicación no fue encontrada.",
+    "minuteRead": "min de lectura",
+    "tags": "Etiquetas",
+    "relatedPosts": "Publicaciones Relacionadas"
+  },
+  "about": {
+    "title": "Acerca de Blog Laur | Nuestra Historia y Misión",
+    "description": "Conoce la historia del Blog Laur, nuestra misión de informar y conectar personas a través de contenido relevante sobre vida urbana, carrera, tecnología y más.",
+    "heading": "Acerca de Nosotros",
+    "backHome": "Inicio"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje enviado!",
+    "successDesc": "Gracias por contactarnos. Te responderemos pronto.",
+    "backHome": "Volver al inicio"
+  },
+  "categories": {
+    "title": "Todas las Categorías",
+    "posts": "publicaciones",
+    "viewAll": "Ver todas"
+  }
+}

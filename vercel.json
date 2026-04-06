@@ -2,17 +2,17 @@
   "redirects": [
     {
       "source": "/qual-a-diferenca-entre-kitnets-studio-jk-loft-flat-republica-e-apartamento.php",
-      "destination": "/posts/qual-a-diferenca-entre-kitnets-studio-jk-loft-flat-republica-e-apartamento",
+      "destination": "/pt/posts/qual-a-diferenca-entre-kitnets-studio-jk-loft-flat-republica-e-apartamento",
       "permanent": true
     },
     {
       "source": "/blog.php",
-      "destination": "/",
+      "destination": "/pt",
       "permanent": true
     },
     {
       "source": "/blog/(.*)",
-      "destination": "/",
+      "destination": "/pt",
       "permanent": true
     }
   ],

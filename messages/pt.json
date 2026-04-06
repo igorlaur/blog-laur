@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "categories": "Categorias",
+    "allCategories": "Ver Todas as Categorias",
+    "about": "Sobre",
+    "contact": "Contato",
+    "tagline": "Vida no Butantã"
+  },
+  "home": {
+    "zone": "São Paulo • Zona Oeste",
+    "heroTitle": "Guia Completo do",
+    "heroHighlight": "Butantã",
+    "heroDescription": "Tudo o que você precisa saber para viver, estudar e aproveitar ao máximo o bairro mais universitário de São Paulo.",
+    "exploreCategories": "Explorar Categorias",
+    "latestPosts": "Ver Últimos Posts",
+    "featuredPosts": "Posts em Destaque",
+    "allPostsBtn": "Ver Todos os Posts",
+    "allCategoriesBtn": "Ver Todas as Categorias",
+    "exploreByCategoryTitle": "Explore por Categoria",
+    "recentPostsTitle": "Posts Recentes",
+    "readMore": "Ler mais",
+    "minuteRead": "min de leitura",
+    "footerTagline": "Seu guia completo para viver e prosperar no Butantã, São Paulo.",
+    "footerLinks": "Links Úteis",
+    "footerAbout": "Sobre o Blog",
+    "footerContact": "Contato",
+    "footerCategories": "Todas as Categorias",
+    "footerRights": "Todos os direitos reservados."
+  },
+  "post": {
+    "backToBlog": "Voltar ao Blog",
+    "home": "Home",
+    "posts": "Posts",
+    "notFound": "Post não encontrado",
+    "notFoundDesc": "Este post não foi encontrado.",
+    "minuteRead": "min de leitura",
+    "tags": "Tags",
+    "relatedPosts": "Posts Relacionados"
+  },
+  "about": {
+    "title": "Sobre o Blog Laur | Nossa História e Missão",
+    "description": "Conheça a história do Blog Laur, nossa missão de informar e conectar pessoas através de conteúdo relevante sobre vida urbana, carreira, tecnologia e muito mais.",
+    "heading": "Sobre Nós",
+    "backHome": "Início"
+  },
+  "contact": {
+    "title": "Contato",
+    "name": "Nome",
+    "email": "E-mail",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "successTitle": "Mensagem enviada!",
+    "successDesc": "Obrigado pelo contato. Responderemos em breve.",
+    "backHome": "Voltar ao início"
+  },
+  "categories": {
+    "title": "Todas as Categorias",
+    "posts": "posts",
+    "viewAll": "Ver todos"
+  }
+}

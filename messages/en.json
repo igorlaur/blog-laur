@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "categories": "Categories",
+    "allCategories": "View All Categories",
+    "about": "About",
+    "contact": "Contact",
+    "tagline": "Life in Butantã"
+  },
+  "home": {
+    "zone": "São Paulo • West Zone",
+    "heroTitle": "Complete Guide to",
+    "heroHighlight": "Butantã",
+    "heroDescription": "Everything you need to know to live, study and make the most of São Paulo's most university-oriented neighborhood.",
+    "exploreCategories": "Explore Categories",
+    "latestPosts": "View Latest Posts",
+    "featuredPosts": "Featured Posts",
+    "allPostsBtn": "View All Posts",
+    "allCategoriesBtn": "View All Categories",
+    "exploreByCategoryTitle": "Explore by Category",
+    "recentPostsTitle": "Recent Posts",
+    "readMore": "Read more",
+    "minuteRead": "min read",
+    "footerTagline": "Your complete guide to living and thriving in Butantã, São Paulo.",
+    "footerLinks": "Useful Links",
+    "footerAbout": "About the Blog",
+    "footerContact": "Contact",
+    "footerCategories": "All Categories",
+    "footerRights": "All rights reserved."
+  },
+  "post": {
+    "backToBlog": "Back to Blog",
+    "home": "Home",
+    "posts": "Posts",
+    "notFound": "Post not found",
+    "notFoundDesc": "This post was not found.",
+    "minuteRead": "min read",
+    "tags": "Tags",
+    "relatedPosts": "Related Posts"
+  },
+  "about": {
+    "title": "About Blog Laur | Our Story and Mission",
+    "description": "Learn about Blog Laur's history, our mission to inform and connect people through relevant content about urban life, career, technology and more.",
+    "heading": "About Us",
+    "backHome": "Home"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successDesc": "Thank you for reaching out. We will get back to you shortly.",
+    "backHome": "Back to home"
+  },
+  "categories": {
+    "title": "All Categories",
+    "posts": "posts",
+    "viewAll": "View all"
+  }
+}
