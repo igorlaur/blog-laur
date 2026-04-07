@@ -1,17 +1,17 @@
 ---
 title: "Você sabe qual a diferença entre Kitnet, Studio, Loft, Flat, JK, republica e co-living?"
-description: "Guia completo sobre os diferentes tipos de moradia para estudantes. Entenda as características, tamanhos e público-alvo de cada modalidade habitacional no Butantã e região."
+description: "Entenda as diferenças entre kitnet, studio, loft, flat, JK, república e co-living. Características, tamanhos e público-alvo de cada tipo de moradia no Butantã."
 date: "2025-11-02"
-category: "moradia"
+category: "Moradia"
 tags: ["kitnet", "studio", "loft", "flat", "jk", "república", "apartamento", "co-living", "moradia", "estudante", "butantã", "usp"]
 author: "Blog Laur"
 featured: true
-image: "/images/moradia-estudantil.svg"
+image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
 ---
 
 # Você sabe qual a diferença entre Kitnet, Studio, Loft, Flat, JK, republica e co-living?
 
-Há semelhança entre esses nomes, porém existem características que os diferenciam. Se você está procurando uma moradia ideal para seus estudos na USP ou outras universidades da região, este guia completo vai esclarecer todas as suas dúvidas sobre os diferentes tipos de habitação disponíveis no Butantã e proximidades.
+Há semelhança entre esses nomes, porém existem características que os diferenciam. Se você está procurando uma moradia ideal para seus estudos na USP ou outras universidades da região, aqui você vai entender as diferenças entre cada tipo de habitação disponível no Butantã e proximidades.
 
 ## Kitnet
 

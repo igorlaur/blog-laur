@@ -20,7 +20,7 @@
     "recentPostsTitle": "Recent Posts",
     "readMore": "Read more",
     "minuteRead": "min read",
-    "footerTagline": "Your complete guide to living and thriving in Butantã, São Paulo.",
+    "footerTagline": "News, tips and information about Butantã — São Paulo's most university-oriented neighborhood.",
     "footerLinks": "Useful Links",
     "footerAbout": "About the Blog",
     "footerContact": "Contact",
@@ -45,6 +45,7 @@
   },
   "contact": {
     "title": "Contact",
+    "description": "Get in touch with Blog Laur. Send us your questions, suggestions or partnership inquiries.",
     "name": "Name",
     "email": "Email",
     "subject": "Subject",

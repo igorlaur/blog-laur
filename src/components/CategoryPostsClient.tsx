@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { 
   Calendar,
   Clock,
@@ -157,8 +158,15 @@ export default function CategoryPostsClient({
                 // Grid view
                 <>
                   {post.image && (
-                    <div className="h-48 bg-gradient-to-r from-blue-400 to-purple-500 relative overflow-hidden">
-                      <div className="absolute inset-0 bg-black/20"></div>
+                    <div className="h-48 relative overflow-hidden">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 400px"
+                      />
+                      <div className="absolute inset-0 bg-black/20" />
                       {post.featured && (
                         <div className="absolute top-4 left-4">
                           <span className="bg-yellow-500 text-yellow-900 px-2 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
@@ -214,8 +222,15 @@ export default function CategoryPostsClient({
                 // List view
                 <>
                   {post.image && (
-                    <div className="md:w-48 h-48 md:h-auto bg-gradient-to-r from-blue-400 to-purple-500 relative overflow-hidden flex-shrink-0">
-                      <div className="absolute inset-0 bg-black/20"></div>
+                    <div className="md:w-48 h-48 md:h-auto relative overflow-hidden flex-shrink-0">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 192px"
+                      />
+                      <div className="absolute inset-0 bg-black/10" />
                     </div>
                   )}
                   <div className="flex-1 p-6">

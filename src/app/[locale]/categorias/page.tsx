@@ -1,12 +1,32 @@
 import { Link } from '@/i18n/navigation'
-import { Metadata } from 'next'
 import { getAllPosts, getAllCategories } from '@/lib/posts'
 import { SearchIcon } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
+import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Categorias | Blog Laur - Explore por Tema',
-  description: 'Explore todos os temas do Blog Laur.',
+interface CategoriasPageProps {
+  params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: CategoriasPageProps): Promise<Metadata> {
+  const { locale } = await params
+  const title = 'Categorias — Explore por Tema'
+  const description = 'Explore todos os temas do Blog Laur: moradia, transporte, alimentação, vida estudantil e mais.'
+  const url = `https://blog.laur.com.br/${locale}/categorias`
+
+  return {
+    title,
+    description,
+    openGraph: { title, description, url, type: 'website' },
+    alternates: {
+      canonical: url,
+      languages: {
+        pt: 'https://blog.laur.com.br/pt/categorias',
+        en: 'https://blog.laur.com.br/en/categorias',
+        es: 'https://blog.laur.com.br/es/categorias',
+      },
+    },
+  }
 }
 
 export default async function CategoriasPage() {

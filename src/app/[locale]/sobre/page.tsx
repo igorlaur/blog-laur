@@ -9,11 +9,29 @@ import {
 } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 
-export async function generateMetadata(): Promise<Metadata> {
+interface SobrePageProps {
+  params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: SobrePageProps): Promise<Metadata> {
+  const { locale } = await params
   const t = await getTranslations('about')
+  const title = t('title')
+  const description = t('description')
+  const url = `https://blog.laur.com.br/${locale}/sobre`
+
   return {
-    title: t('title'),
-    description: t('description'),
+    title,
+    description,
+    openGraph: { title, description, url, type: 'website' },
+    alternates: {
+      canonical: url,
+      languages: {
+        pt: 'https://blog.laur.com.br/pt/sobre',
+        en: 'https://blog.laur.com.br/en/sobre',
+        es: 'https://blog.laur.com.br/es/sobre',
+      },
+    },
   }
 }
 

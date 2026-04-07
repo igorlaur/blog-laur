@@ -1,0 +1,151 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="libBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#451A03;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lampGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF08A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FCD34D;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lightSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FEF08A;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#FEF08A;stop-opacity:0" />
+    </radialGradient>
+    <filter id="bookShadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background - library wall -->
+  <rect width="600" height="300" fill="url(#libBg)"/>
+
+  <!-- Bookshelf back wall -->
+  <rect x="20" y="40" width="120" height="185" fill="#1E293B" rx="3"/>
+  <rect x="460" y="40" width="120" height="185" fill="#1E293B" rx="3"/>
+
+  <!-- Bookshelf shelves - left -->
+  <rect x="25" y="65" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="25" y="115" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="25" y="165" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="25" y="215" width="110" height="5" fill="#334155" rx="1"/>
+
+  <!-- Books left shelf row 1 -->
+  <rect x="28" y="40" width="12" height="24" fill="#EF4444" rx="1"/>
+  <rect x="42" y="43" width="10" height="21" fill="#F59E0B" rx="1"/>
+  <rect x="54" y="41" width="14" height="23" fill="#3B82F6" rx="1"/>
+  <rect x="70" y="44" width="10" height="20" fill="#10B981" rx="1"/>
+  <rect x="82" y="40" width="12" height="24" fill="#8B5CF6" rx="1"/>
+  <rect x="96" y="42" width="10" height="22" fill="#F97316" rx="1"/>
+  <rect x="108" y="41" width="14" height="23" fill="#06B6D4" rx="1"/>
+  <!-- Books row 2 -->
+  <rect x="28" y="90" width="14" height="24" fill="#6366F1" rx="1"/>
+  <rect x="44" y="93" width="10" height="21" fill="#EF4444" rx="1"/>
+  <rect x="56" y="91" width="12" height="23" fill="#84CC16" rx="1"/>
+  <rect x="70" y="92" width="14" height="22" fill="#F59E0B" rx="1"/>
+  <rect x="86" y="90" width="10" height="24" fill="#EC4899" rx="1"/>
+  <rect x="98" y="91" width="12" height="23" fill="#3B82F6" rx="1"/>
+  <!-- Books row 3 -->
+  <rect x="28" y="140" width="10" height="24" fill="#10B981" rx="1"/>
+  <rect x="40" y="142" width="14" height="22" fill="#8B5CF6" rx="1"/>
+  <rect x="56" y="140" width="12" height="24" fill="#EF4444" rx="1"/>
+  <rect x="70" y="141" width="10" height="23" fill="#F97316" rx="1"/>
+  <rect x="82" y="140" width="14" height="24" fill="#06B6D4" rx="1"/>
+  <rect x="98" y="143" width="10" height="21" fill="#F59E0B" rx="1"/>
+  <!-- Books row 4 -->
+  <rect x="28" y="190" width="12" height="24" fill="#EC4899" rx="1"/>
+  <rect x="42" y="192" width="10" height="22" fill="#3B82F6" rx="1"/>
+  <rect x="54" y="190" width="14" height="24" fill="#84CC16" rx="1"/>
+  <rect x="70" y="191" width="10" height="23" fill="#EF4444" rx="1"/>
+  <rect x="82" y="190" width="12" height="24" fill="#6366F1" rx="1"/>
+  <rect x="96" y="192" width="12" height="22" fill="#F59E0B" rx="1"/>
+
+  <!-- Bookshelf shelves - right -->
+  <rect x="465" y="65" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="465" y="115" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="465" y="165" width="110" height="5" fill="#334155" rx="1"/>
+  <rect x="465" y="215" width="110" height="5" fill="#334155" rx="1"/>
+  <!-- Books right row 1 -->
+  <rect x="468" y="40" width="12" height="24" fill="#3B82F6" rx="1"/>
+  <rect x="482" y="43" width="14" height="21" fill="#10B981" rx="1"/>
+  <rect x="498" y="41" width="10" height="23" fill="#EF4444" rx="1"/>
+  <rect x="510" y="44" width="14" height="20" fill="#8B5CF6" rx="1"/>
+  <rect x="526" y="40" width="10" height="24" fill="#F59E0B" rx="1"/>
+  <rect x="538" y="42" width="12" height="22" fill="#EC4899" rx="1"/>
+  <rect x="552" y="41" width="10" height="23" fill="#06B6D4" rx="1"/>
+  <!-- Books right row 2 -->
+  <rect x="468" y="90" width="14" height="24" fill="#F97316" rx="1"/>
+  <rect x="484" y="92" width="10" height="22" fill="#6366F1" rx="1"/>
+  <rect x="496" y="90" width="12" height="24" fill="#EF4444" rx="1"/>
+  <rect x="510" y="91" width="10" height="23" fill="#84CC16" rx="1"/>
+  <rect x="522" y="90" width="14" height="24" fill="#3B82F6" rx="1"/>
+  <rect x="538" y="93" width="10" height="21" fill="#F59E0B" rx="1"/>
+
+  <!-- Desk -->
+  <rect x="160" y="200" width="280" height="18" fill="url(#deskGrad)" rx="3"/>
+  <rect x="170" y="218" width="20" height="50" fill="#451A03" rx="2"/>
+  <rect x="410" y="218" width="20" height="50" fill="#451A03" rx="2"/>
+
+  <!-- Light glow on desk -->
+  <ellipse cx="300" cy="200" rx="130" ry="50" fill="url(#lightSpot)"/>
+
+  <!-- Laptop -->
+  <rect x="240" y="162" width="120" height="75" fill="#334155" rx="5"/>
+  <rect x="244" y="166" width="112" height="67" fill="#1E3A5F" rx="3"/>
+  <!-- Screen content -->
+  <rect x="249" y="170" width="102" height="10" fill="#60A5FA" rx="1" opacity="0.7"/>
+  <rect x="249" y="184" width="70" height="5" fill="#94A3B8" rx="1" opacity="0.5"/>
+  <rect x="249" y="193" width="85" height="5" fill="#94A3B8" rx="1" opacity="0.5"/>
+  <rect x="249" y="202" width="65" height="5" fill="#94A3B8" rx="1" opacity="0.5"/>
+  <rect x="249" y="211" width="80" height="5" fill="#94A3B8" rx="1" opacity="0.5"/>
+  <rect x="249" y="220" width="45" height="5" fill="#94A3B8" rx="1" opacity="0.5"/>
+  <!-- Laptop keyboard -->
+  <rect x="240" y="237" width="120" height="8" fill="#475569" rx="2"/>
+  <!-- Laptop hinges -->
+  <rect x="290" y="237" width="20" height="3" fill="#64748B" rx="1"/>
+
+  <!-- Desk lamp -->
+  <rect x="385" y="185" width="5" height="50" fill="#94A3B8" rx="2"/>
+  <rect x="380" y="165" width="5" height="22" fill="#94A3B8" rx="2" transform="rotate(-40 382 186)"/>
+  <ellipse cx="367" cy="158" rx="18" ry="8" fill="url(#lampGrad)" opacity="0.9"/>
+  <!-- Lamp light glow -->
+  <ellipse cx="367" cy="165" rx="30" ry="20" fill="#FEF08A" opacity="0.12"/>
+
+  <!-- Open book on desk -->
+  <g filter="url(#bookShadow)">
+    <path d="M170,200 Q215,192 235,195 L235,240 Q215,237 170,245 Z" fill="#F8FAFC" rx="2"/>
+    <path d="M235,195 Q255,192 300,200 L300,245 Q255,237 235,240 Z" fill="#F1F5F9"/>
+    <!-- Book lines -->
+    <line x1="175" y1="203" x2="232" y2="198" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="175" y1="210" x2="232" y2="205" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="176" y1="217" x2="232" y2="212" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="176" y1="224" x2="232" y2="219" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="240" y1="198" x2="297" y2="202" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="240" y1="205" x2="297" y2="209" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="240" y1="212" x2="297" y2="216" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <line x1="240" y1="219" x2="297" y2="223" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+    <!-- Book spine -->
+    <rect x="233" y="194" width="3" height="47" fill="#94A3B8" rx="1"/>
+  </g>
+
+  <!-- Coffee mug -->
+  <rect x="315" y="215" width="28" height="28" fill="#374151" rx="4"/>
+  <path d="M343,222 Q355,222 355,232 Q355,238 343,238" fill="none" stroke="#374151" stroke-width="4" stroke-linecap="round"/>
+  <!-- Steam -->
+  <path d="M322,213 Q324,207 322,202" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M329,213 Q331,206 329,200" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M336,213 Q338,207 336,202" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Student silhouette -->
+  <circle cx="300" cy="147" r="18" fill="#475569"/>
+  <rect x="284" y="163" width="32" height="35" fill="#475569" rx="4"/>
+
+  <!-- Title overlay -->
+  <rect x="0" y="0" width="600" height="50" fill="rgba(0,0,0,0.55)"/>
+  <text x="300" y="22" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="white" text-anchor="middle">Melhores Lugares para Estudar no Butantã</text>
+  <text x="300" y="42" font-family="Arial, sans-serif" font-size="12" fill="#BFDBFE" text-anchor="middle">Bibliotecas • Cafés • Espaços Coworking • Dicas de Concentração</text>
+</svg>

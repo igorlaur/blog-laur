@@ -1,0 +1,83 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FEF3C7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#skyBg)"/>
+
+  <!-- Ground -->
+  <rect y="220" width="600" height="80" fill="#78350F"/>
+  <rect y="215" width="600" height="8" fill="#92400E"/>
+
+  <!-- Sidewalk -->
+  <rect y="215" width="600" height="10" rx="0" fill="#D4A96A"/>
+
+  <!-- Shop 1 -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="120" width="120" height="95" fill="url(#shopGrad)" rx="3"/>
+    <rect x="40" y="120" width="120" height="20" fill="#DC2626" rx="3"/>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">SUPERMERCADO</text>
+    <rect x="55" y="150" width="38" height="45" fill="#60A5FA" rx="2"/>
+    <rect x="105" y="155" width="40" height="30" fill="#93C5FD" rx="2" opacity="0.7"/>
+    <rect x="95" y="185" width="25" height="30" fill="#6B7280" rx="2"/>
+  </g>
+
+  <!-- Shop 2 -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="130" width="100" height="85" fill="url(#shopGrad)" rx="3"/>
+    <rect x="180" y="130" width="100" height="18" fill="#7C3AED" rx="3"/>
+    <text x="230" y="143" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">FARMÁCIA</text>
+    <rect x="195" y="157" width="30" height="38" fill="#A78BFA" rx="2"/>
+    <rect x="235" y="162" width="30" height="28" fill="#7C3AED" rx="2" opacity="0.5"/>
+    <!-- Cross symbol -->
+    <rect x="237" y="168" width="26" height="6" fill="white" rx="1"/>
+    <rect x="247" y="160" width="6" height="22" fill="white" rx="1"/>
+    <rect x="255" y="185" width="20" height="30" fill="#6B7280" rx="2"/>
+  </g>
+
+  <!-- Shop 3 - Bakery -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="115" width="110" height="100" fill="url(#shopGrad)" rx="3"/>
+    <rect x="300" y="115" width="110" height="20" fill="#059669" rx="3"/>
+    <text x="355" y="130" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">PADARIA</text>
+    <rect x="315" y="145" width="35" height="40" fill="#6EE7B7" rx="2"/>
+    <rect x="360" y="150" width="35" height="35" fill="#34D399" rx="2" opacity="0.7"/>
+    <rect x="340" y="185" width="25" height="30" fill="#6B7280" rx="2"/>
+  </g>
+
+  <!-- Shop 4 - Restaurant -->
+  <g filter="url(#shadow)">
+    <rect x="430" y="125" width="110" height="90" fill="url(#shopGrad)" rx="3"/>
+    <rect x="430" y="125" width="110" height="18" fill="#1D4ED8" rx="3"/>
+    <text x="485" y="138" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">RESTAURANTE</text>
+    <rect x="445" y="152" width="35" height="40" fill="#93C5FD" rx="2"/>
+    <rect x="490" y="157" width="35" height="35" fill="#60A5FA" rx="2" opacity="0.7"/>
+    <rect x="470" y="185" width="25" height="30" fill="#6B7280" rx="2"/>
+    <!-- Table -->
+    <ellipse cx="458" cy="172" rx="15" ry="5" fill="#F59E0B"/>
+    <rect x="455" y="172" width="3" height="12" fill="#92400E"/>
+    <rect x="460" y="172" width="3" height="12" fill="#92400E"/>
+  </g>
+
+  <!-- People silhouettes -->
+  <circle cx="160" cy="205" r="7" fill="#1F2937"/>
+  <rect x="157" y="212" width="6" height="16" fill="#1F2937" rx="1"/>
+  <circle cx="275" cy="207" r="6" fill="#374151"/>
+  <rect x="272" y="213" width="6" height="14" fill="#374151" rx="1"/>
+
+  <!-- Title text -->
+  <rect x="0" y="0" width="600" height="55" fill="rgba(0,0,0,0.35)"/>
+  <text x="300" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Guia de Comércios no Butantã</text>
+  <text x="300" y="46" font-family="Arial, sans-serif" font-size="12" fill="#FEF3C7" text-anchor="middle">Supermercados • Farmácias • Restaurantes • Lojas</text>
+</svg>

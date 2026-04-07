@@ -1,0 +1,81 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="globeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#60A5FA" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#skyGrad)"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="2" fill="white" opacity="0.6"/>
+  <circle cx="120" cy="20" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="55" r="1" fill="white" opacity="0.4"/>
+  <circle cx="420" cy="25" r="2" fill="white" opacity="0.6"/>
+  <circle cx="500" cy="45" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="560" cy="15" r="2" fill="white" opacity="0.7"/>
+  <circle cx="350" cy="30" r="1" fill="white" opacity="0.5"/>
+
+  <!-- Globe -->
+  <g filter="url(#glow)">
+    <circle cx="300" cy="155" r="95" fill="url(#globeGrad)" opacity="0.9"/>
+    <!-- Latitude lines -->
+    <ellipse cx="300" cy="155" rx="95" ry="30" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+    <ellipse cx="300" cy="130" rx="80" ry="22" fill="none" stroke="white" stroke-width="1" opacity="0.25"/>
+    <ellipse cx="300" cy="180" rx="80" ry="22" fill="none" stroke="white" stroke-width="1" opacity="0.25"/>
+    <!-- Longitude lines -->
+    <path d="M300,60 Q340,155 300,250" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+    <path d="M300,60 Q260,155 300,250" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+    <path d="M205,155 Q300,120 395,155" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+    <!-- Continents (simplified) -->
+    <path d="M240,125 Q260,115 275,120 Q285,130 280,145 Q265,150 255,145 Z" fill="white" opacity="0.25"/>
+    <path d="M290,135 Q310,125 325,130 Q335,145 325,155 Q310,158 295,150 Z" fill="white" opacity="0.25"/>
+    <path d="M250,160 Q270,155 275,165 Q272,178 258,178 Q248,172 250,160 Z" fill="white" opacity="0.2"/>
+    <path d="M310,165 Q330,158 340,168 Q338,182 322,183 Q308,178 310,165 Z" fill="white" opacity="0.2"/>
+    <!-- Outline -->
+    <circle cx="300" cy="155" r="95" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Airplane 1 -->
+  <g transform="rotate(-25 155 95)">
+    <path d="M135,95 L175,85 L185,90 L148,105 Z" fill="white" opacity="0.9"/>
+    <path d="M148,105 L160,115 L155,118 L140,108 Z" fill="white" opacity="0.7"/>
+    <path d="M163,91 L170,75 L175,77 L170,97 Z" fill="white" opacity="0.7"/>
+  </g>
+
+  <!-- Airplane 2 -->
+  <g transform="rotate(15 450 90)">
+    <path d="M430,90 L470,82 L480,87 L443,100 Z" fill="white" opacity="0.85"/>
+    <path d="M443,100 L455,110 L450,113 L435,103 Z" fill="white" opacity="0.65"/>
+    <path d="M458,86 L465,70 L470,72 L465,92 Z" fill="white" opacity="0.65"/>
+  </g>
+
+  <!-- Connection dots/pins for cities -->
+  <circle cx="245" cy="130" r="5" fill="#FCD34D"/>
+  <circle cx="245" cy="130" r="8" fill="#FCD34D" opacity="0.3"/>
+  <circle cx="330" cy="142" r="5" fill="#FCD34D"/>
+  <circle cx="330" cy="142" r="8" fill="#FCD34D" opacity="0.3"/>
+  <circle cx="265" cy="168" r="4" fill="#FCD34D"/>
+  <circle cx="320" cy="165" r="4" fill="#FCD34D"/>
+  <!-- Connection lines -->
+  <line x1="245" y1="130" x2="330" y2="142" stroke="#FCD34D" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="265" y1="168" x2="320" y2="165" stroke="#FCD34D" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="600" height="52" fill="rgba(0,0,0,0.4)"/>
+  <text x="300" y="24" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Intercâmbio e Programas Internacionais</text>
+  <text x="300" y="44" font-family="Arial, sans-serif" font-size="12" fill="#BFDBFE" text-anchor="middle">Bolsas • Universidades Parceiras • Como se Preparar</text>
+
+  <!-- Bottom label -->
+  <rect x="0" y="266" width="600" height="34" fill="rgba(0,0,0,0.35)"/>
+  <text x="300" y="287" font-family="Arial, sans-serif" font-size="11" fill="#E0E7FF" text-anchor="middle">Guia completo para estudantes universitários</text>
+</svg>

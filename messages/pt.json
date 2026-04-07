@@ -20,7 +20,7 @@
     "recentPostsTitle": "Posts Recentes",
     "readMore": "Ler mais",
     "minuteRead": "min de leitura",
-    "footerTagline": "Seu guia completo para viver e prosperar no Butantã, São Paulo.",
+    "footerTagline": "Notícias, dicas e informações sobre o Butantã para você se sentir em casa.",
     "footerLinks": "Links Úteis",
     "footerAbout": "Sobre o Blog",
     "footerContact": "Contato",
@@ -45,6 +45,7 @@
   },
   "contact": {
     "title": "Contato",
+    "description": "Entre em contato com o Blog Laur. Envie suas dúvidas, sugestões ou parcerias.",
     "name": "Nome",
     "email": "E-mail",
     "subject": "Assunto",
